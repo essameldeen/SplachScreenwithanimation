@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/bgapp"
+        />
+    <ImageView
+        android:id="@+id/logo"
+        android:elevation="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="260dp"
+        android:src="@drawable/clover"
+        />
+
+    <TextView
+        android:id="@+id/goodMooring"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:elevation="6dp"
+        android:padding="6dp"
+        android:text="GOOD MOORING"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+      />
+
+
+    <TextView
+        android:id="@+id/hi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="70dp"
+        android:elevation="6dp"
+        android:padding="6dp"
+        android:text="Welcome for you "
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/white"
+
+        android:textSize="18sp"
+        />
+
+</RelativeLayout>
